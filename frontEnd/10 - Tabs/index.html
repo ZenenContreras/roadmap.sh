@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tabs">
+        <nav>
+            <ul>
+                <li class="tabb" id='first'><a href="#tab1">First tab</a></li>
+                <li class="tabb"  id="second" ><a href="#tab2">Second tab</a></li>
+                <li class="tabb"  id="third"><a href="#tab3">Third tab</a></li>
+                <li class="tabb" id="fourth"><a href="#tab4">Fourth tab</a></li>
+            </ul>
+        </nav>
+        <div class="tab-content">
+            <p>Clicking each tab hould hide the content of the other tab and show the content of clicked tab. By default, enable the first tab.</p>
+            <div class="content">
+                <div id="tab1" class="tab">
+                    <p>This is the content of the first tab.</p>
+                </div>
+                <div id="tab2" class="tab">
+                    <p>This is the content of the second tab.</p>
+                </div>
+                <div id="tab3" class="tab">
+                    <p>This is the content of the third tab.</p>
+                </div>
+                <div id="tab4" class="tab">
+                    <p>This is the content of the fourth tab.</p>
+                </div>
+            </div>
+            <p>Add some dummy contextor just add simple tex showing the tab.</p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

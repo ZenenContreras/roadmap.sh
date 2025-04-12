@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    transition: text-decoration 1s ease-in-out; 
+}
+
+p{
+    font-size: 38px;
+    padding: 30px;
+    text-align: left;
+}
+
+body{
+    font-family: popins, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tabs{
+    border: 5px solid black;
+    padding: 10px;
+    height: 90vh;
+    border-radius: 20px;
+    height: 90%;
+    width: 90%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li{
+    padding: 30px;
+    background-color: #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+nav a:active, /* O nav a:focus */
+nav a:hover {
+  text-decoration: underline; 
+  text-decoration-color: rgb(0, 0, 0);
+  text-decoration-thickness: 4px;
+  text-underline-offset: 8px;
+}
+
+.tabb:hover ~ li a{
+    color: gray;
+}
+
+.tabb:has( ~ li a:hover){
+    color: gray;
+}
+
+
+.tab-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 95%;
+    color: white;
+    border-radius: 30px;
+}
+
+.content #tab2{
+    display: none;
+}
+.content #tab3{
+    display: none;
+}
+.content #tab4{
+    display: none;
+}
