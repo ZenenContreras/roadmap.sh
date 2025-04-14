@@ -11,9 +11,9 @@ This repository contains a collection of mini-projects based on frontend compone
 
 Click the following links to preview each component:
 
-| Component | Description | Solution Image |
-|------------|-------------|------------------------|
-| **4-Changelog-Component** | Changelog-style component to list changes. | [View solution](./frontEnd/4-Changelog-Component/image.png) |
+| Component | Description | Solution Image | Proyect URL |
+|------------|-------------|------------------------|------------------------|
+| **4-Changelog-Component** | Changelog-style component to list changes. | [View solution](./frontEnd/4-Changelog-Component/image.png) | https://roadmap.sh/projects/changelog-component |
 | **5-Testimonial-Cards** | Styled testimonial cards. | [View solution](./frontEnd/5-Testimonial-Cards/image.png) |
 | **8-Image-Grid-Layout** | Grid-style image gallery component. | [View solution](./frontEnd/8-Image-Grid-Layout/image.png) |
 | **10-Tabs** | Tabbed component with multiple sections. | [View solution](./frontEnd/10-Tabs/image.png) |
