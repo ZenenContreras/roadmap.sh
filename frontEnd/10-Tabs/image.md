@@ -1,1 +1,0 @@
-![tabs image](image.png)
