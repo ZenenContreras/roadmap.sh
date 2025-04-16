@@ -16,6 +16,7 @@ Click the following links to preview each component:
 | **4-Changelog-Component** | Changelog-style component to list changes. | [View solution](./frontEnd/4-Changelog-Component/image.png) | https://roadmap.sh/projects/changelog-component |
 | **5-Testimonial-Cards** | Styled testimonial cards. | [View solution](./frontEnd/5-Testimonial-Cards/image.png) | https://roadmap.sh/projects/testimonial-cards |
 | **8-Image-Grid-Layout** | Grid-style image gallery component. | [View solution](./frontEnd/8-Image-Grid-Layout/image.png) | https://roadmap.sh/projects/image-grid | 
+| **9-ToolTip** | Navbar component hover style. | [View solution](./frontEnd/9-ToolTip/image.png) | https://roadmap.sh/projects/tooltip-ui | 
 | **10-Tabs** | Tabbed component with multiple sections. | [View solution](./frontEnd/10-Tabs/image.png) | https://roadmap.sh/projects/simple-tabs |
 
 ## 🚀 How to use
